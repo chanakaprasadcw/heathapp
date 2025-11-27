@@ -98,7 +98,9 @@ export const AIChat: React.FC = () => {
                 </p>
             </div>
         </div>
-        <Info className="w-5 h-5 text-white/70 cursor-help" title="Not professional medical advice" />
+        <div title="Not professional medical advice">
+          <Info className="w-5 h-5 text-white/70 cursor-help" />
+        </div>
       </div>
 
       {/* Messages Area */}
