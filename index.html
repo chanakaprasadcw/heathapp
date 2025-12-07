@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MediPulse AI - Your Health Companion</title>
+    <title>MedCey - Your Health Companion</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
@@ -42,6 +42,20 @@
       .animate-fade-in {
         animation: fade-in-up 0.8s ease-out forwards;
       }
+
+      /* Horizontal Scroll Animation for Phone */
+      @keyframes scroll-horizontal {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+      }
+      .animate-scroll-horizontal {
+        display: flex;
+        width: max-content;
+        animation: scroll-horizontal 18s linear infinite;
+      }
+      .animate-scroll-horizontal:hover {
+        animation-play-state: paused;
+      }
     </style>
   <script type="importmap">
 {
@@ -52,7 +66,8 @@
     "react": "https://aistudiocdn.com/react@^19.2.0",
     "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
     "recharts": "https://aistudiocdn.com/recharts@^3.5.0",
-    "d3": "https://aistudiocdn.com/d3@^7.9.0"
+    "d3": "https://aistudiocdn.com/d3@^7.9.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^11.0.8"
   }
 }
 </script>

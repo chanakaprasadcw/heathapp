@@ -8,7 +8,7 @@ export const AIChat: React.FC = () => {
     {
       id: 'welcome',
       role: 'model',
-      text: "Hello! I'm MediPulse AI. How are you feeling today? You can ask me about symptoms, general health advice, or wellness tips.",
+      text: "Hello! I'm MedCey AI. How are you feeling today? You can ask me about symptoms, general health advice, or wellness tips.",
       timestamp: new Date(),
     },
   ]);
