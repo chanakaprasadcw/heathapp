@@ -825,31 +825,6 @@ function App() {
                     </div>
                   </MagneticButton>
                 </div>
-                
-                <div className="mt-12 flex items-center justify-center lg:justify-start space-x-8 animate-fade-in" style={{animationDelay: '0.5s'}}>
-                   <div className="flex flex-col">
-                      <div className="flex -space-x-3">
-                        {[
-                          "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&q=80&w=100&h=100",
-                          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100&h=100",
-                          "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=100&h=100",
-                          "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=100&h=100"
-                        ].map((src, i) => (
-                           <div key={i} className="w-10 h-10 rounded-full border-2 border-white bg-slate-100 overflow-hidden shadow-sm">
-                              <img src={src} alt="User" className="w-full h-full object-cover" />
-                           </div>
-                        ))}
-                      </div>
-                      <div className="mt-2 text-sm font-bold text-slate-700 font-['Poppins']">10k+ Doctors</div>
-                   </div>
-                   <div className="h-10 w-px bg-slate-200"></div>
-                   <div className="flex flex-col">
-                      <div className="flex text-amber-400">
-                         {[1,2,3,4,5].map(i => <Star key={i} className="w-4 h-4 fill-current" />)}
-                      </div>
-                      <div className="mt-2 text-sm font-bold text-slate-700 font-['Poppins']">4.9/5 Rating</div>
-                   </div>
-                </div>
               </div>
 
               <div className="lg:w-1/2 relative flex justify-center lg:justify-end animate-fade-in" style={{animationDelay: '0.4s'}}>
